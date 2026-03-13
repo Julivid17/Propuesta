@@ -307,10 +307,12 @@
             </div>
         </header>
 
-        <form id="evaluationForm" action="https://formspree.io/f/xwvrbwav" method="POST">
-            <!-- Campo oculto para confirmación -->
-            <input type="hidden" name="_next" value="">
-            <input type="hidden" name="_subject" value="Nueva Evaluación de Proyecto Web">
+        <form id="evaluationForm" action="https://api.web3forms.com/submit" method="POST">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="38800cf3-a368-4dc6-b100-db4878db0f42">
+            <input type="hidden" name="subject" value="Nueva Evaluación de Proyecto Web">
+            <input type="hidden" name="from_name" value="Formulario de Evaluación">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
             <!-- INFORMACIÓN GENERAL -->
             <div class="form-section">
